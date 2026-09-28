@@ -1,21 +1,2 @@
-# Local config + secrets — never commit
-# .env is the one secret file this product asks YOU to create (your X bearer token, and
-# optionally your CoinGecko / CoinMarketCap keys). It was missing from this list until
-# 2026-08-29, which is exactly the file most likely to end up in a public repo by accident.
 .env
-.env.*
-!env.example
-.mcp.json
 config.json
-*.key
-
-# Caches + generated
-.screen-cache.json
-.runup-hits.json
-usage.log.jsonl
-__pycache__/
-*.pyc
-
-# Your private research output (keep your own, don't ship)
-reports/*
-!reports/.gitkeep
