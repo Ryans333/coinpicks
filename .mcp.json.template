@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "coinpicks-data": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--python", "3.12",
+        "--quiet",
+        "--with", "mcp[cli]>=1.2,<2",
+        "--with", "httpx>=0.27",
+        "python",
+        "__SERVER_PATH__"
+      ],
+      "env": {}
+    }
+  }
+}

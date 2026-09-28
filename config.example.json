@@ -1,0 +1,9 @@
+{
+  "_comment": "Optional settings. The engine works with all defaults and needs nothing here to run. It is fully keyless out of the box — no API keys required. (Heavy users can optionally add a free CoinGecko key for more speed; that goes in the MCP server's env block, not here. See TROUBLESHOOT.md.)",
+  "default_chains": ["base", "solana", "ethereum"],
+  "default_liquidity_min_usd": 200000,
+  "default_liquidity_max_usd": 2000000,
+  "require_public_team": false,
+  "_team_note": "Teams are weighted heavily (a real public team is a big plus) but are NEVER a disqualifier. Anonymous / no-public-team coins are flagged as a risk and tiered lower, not removed.",
+  "prefer_public_team": true
+}
